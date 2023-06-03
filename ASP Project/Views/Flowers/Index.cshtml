@@ -1,0 +1,63 @@
+﻿@using ASP_Project.Data.Models;
+@model List<Flower>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/site.css" rel="stylesheet" type="text/css" />
+    <title>Магазин квітів</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Магазин квітів</h1>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Головне меню</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Рози</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Тюльпани</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Лілії</a>
+            </li>
+        </ul>
+
+        <div class="row mt-4" >
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="flower1.jpg" class="card-img-top" alt="Квітка 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Назва квітки 1</h5>
+                        <p class="card-text">Опис квітки 1</p>
+                        <a href="#" class="btn btn-primary">Додати в кошик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="flower2.jpg" class="card-img-top" alt="Квітка 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Назва квітки 2</h5>
+                        <p class="card-text">Опис квітки 2</p>
+                        <a href="#" class="btn btn-primary">Додати в кошик</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="flower3.jpg" class="card-img-top" alt="Квітка 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Назва квітки 3</h5>
+                        <p class="card-text">Опис квітки 3</p>
+                        <a href="#" class="btn btn-primary">Додати в кошик</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
