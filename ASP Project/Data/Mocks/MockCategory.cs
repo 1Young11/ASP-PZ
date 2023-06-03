@@ -15,9 +15,9 @@ namespace ASP_Project.Data.Mocks
         {
             categorys = new List<Category>()
             {
-                new Category { Id = 1, Name = "Roza"},
-                new Category { Id = 2, Name = "Tulpan"},
-                new Category { Id = 2, Name = "Trojan"},
+                new Category { Id = 1, Name = "Рози", minPrice = 400, maxPrice = 5000, img = "/icon/mainroze.jpg"},
+                new Category { Id = 2, Name = "Тюльпани", minPrice = 250, maxPrice = 6000, img = "/icon/maintulpan.jpg"},
+                new Category { Id = 2, Name = "Лилии", minPrice = 15000, maxPrice = 5500, img = "/icon/mainlilii.jpg"},
             };
         }
         public void AddCategorys(Category category)

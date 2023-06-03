@@ -12,5 +12,6 @@ namespace ASP_Project.Data.Models
         public string Description { get; set; }
         public string Color { get; set; }
         public int IdCategory { get; set; }
+        public string img { get; set; }
     }
 }

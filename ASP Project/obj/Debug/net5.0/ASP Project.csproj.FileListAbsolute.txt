@@ -39,3 +39,5 @@ C:\Users\User\Desktop\Университет\АСП\ASP Project\ASP Project\obj\
 C:\Users\User\Desktop\Университет\АСП\ASP Project\ASP Project\obj\Debug\net5.0\ASP Project.pdb
 C:\Users\User\Desktop\Университет\АСП\ASP Project\ASP Project\obj\Debug\net5.0\ASP Project.genruntimeconfig.cache
 C:\Users\User\Desktop\Университет\АСП\ASP Project\ASP Project\obj\Debug\net5.0\Razor\Views\Flowers\Index.cshtml.g.cs
+C:\Users\User\Desktop\Университет\АСП\ASP Project\ASP Project\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\User\Desktop\Университет\АСП\ASP Project\ASP Project\obj\Debug\net5.0\Razor\Views\Flowers\GetByCategory.cshtml.g.cs

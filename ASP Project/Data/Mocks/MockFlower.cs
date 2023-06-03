@@ -14,9 +14,12 @@ namespace ASP_Project.Data.Mocks
         {
             flowers = new List<Flower>()
             {
-                new Flower { Id = 1, Price = 50, Description = "The length of the peduncle of garden roses ranges from 10 to 80 cm. Rose flowers", Color = "Red", IdCategory = 1},
-                new Flower { Id = 2, Price = 80, Description = "Genus of perennial herbaceous bulbous plants of the Liliaceae family", Color = "Yellow", IdCategory = 2},
-                new Flower { Id = 2, Price = 75, Description = "A plant with a diverse structure of flowers, inflorescences, fruits, leaves", Color = "Green", IdCategory = 3},
+                new Flower { Id = 1, Price = 500, Description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.", Color = "Червоний", IdCategory = 1, img = "/icon/roze/Червоний.jpg"},
+                new Flower { Id = 2, Price = 250, Description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.", Color = "Жовтий", IdCategory = 1, img = "/icon/roze/Жовтий.jpg"},
+                new Flower { Id = 3, Price = 300, Description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.", Color = "Зелений", IdCategory = 1, img = "/icon/roze/Зелений.jpg"},
+                new Flower { Id = 4, Price = 800, Description = "Lorem ipsum dolor sit amet consectetur adipisicing elit.", Color = "Рожевий", IdCategory = 1, img = "/icon/roze/Рожевий.jpg"},
+                new Flower { Id = 5, Price = 80, Description = "Genus of perennial herbaceous bulbous plants of the Liliaceae family", Color = "Yellow", IdCategory = 2},
+                new Flower { Id = 6, Price = 75, Description = "A plant with a diverse structure of flowers, inflorescences, fruits, leaves", Color = "Green", IdCategory = 3},
             };
         }
 

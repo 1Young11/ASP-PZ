@@ -9,52 +9,34 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Магазин квітів</h1>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Головне меню</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Рози</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Тюльпани</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Лілії</a>
-            </li>
-        </ul>
+    <h1 class="header__site">Магазин квітів</h1>
+    <ul class="nav nav-pills nav__site">
+        <li class="nav-item">
+            <a class="nav-link active" href="#Main">Головне меню</a>
+        </li>
+        <li class="nav-item" href="#">
+            <a class="nav-link" href="#">Рози</a>
+        </li>
+        <li class="nav-item" href="#">
+            <a class="nav-link" href="#">Тюльпани</a>
+        </li>
+        <li class="nav-item" href="#">
+            <a class="nav-link" href="#">Лілії</a>
+        </li>
+    </ul>
 
-        <div class="row mt-4" >
+    <div class="container" href="#Main">
+        <div class="row mt-4">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="flower1.jpg" class="card-img-top" alt="Квітка 1">
+                    <img src="../wwwroot/icon/mainroze.jpg" class="card-img-top mt-3" alt="Квітка 1">
                     <div class="card-body">
-                        <h5 class="card-title">Назва квітки 1</h5>
-                        <p class="card-text">Опис квітки 1</p>
-                        <a href="#" class="btn btn-primary">Додати в кошик</a>
+                        <h5 class="card-title mt-1">Рози</h5>
+                        <div class="sep"></div>
+                        <p class="card-text mt-1">Ціни: від 500 - до 5000₴</p>
+                        <p class="card-text mt-1">Доставка: 1-2 дні</p>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="flower2.jpg" class="card-img-top" alt="Квітка 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Назва квітки 2</h5>
-                        <p class="card-text">Опис квітки 2</p>
-                        <a href="#" class="btn btn-primary">Додати в кошик</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="flower3.jpg" class="card-img-top" alt="Квітка 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Назва квітки 3</h5>
-                        <p class="card-text">Опис квітки 3</p>
-                        <a href="#" class="btn btn-primary">Додати в кошик</a>
-                    </div>
+                    <a href="#notmain" class="btn">Обрати</a>
                 </div>
             </div>
         </div>
