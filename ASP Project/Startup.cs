@@ -31,6 +31,7 @@ namespace ASP_Project
 
             services.AddTransient<IFlower, FlowerRepository>();
             services.AddTransient<ICategory, CategoryRepository>();
+            services.AddSingleton<IShoppingCart, ShoppingCartRepository>();
             services.AddMvc(options =>
             {
                 options.EnableEndpointRouting = false;
